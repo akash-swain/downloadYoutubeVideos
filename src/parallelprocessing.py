@@ -11,7 +11,14 @@ def rn(filename):
     time.sleep(1)
     os.rename(filename, filename + "akash")
 
+# Download in separate threads 
+for i in video_list:
+    a = Thread(target=yt.download_all_videos, args=(i,), name=f"download-thread-{i}")
+    a.start()
 
+
+"""
+********************* practice parallel execution using files **************************
 def temp(num):
     time.sleep(randint(5,10))
     print (f"new-{num}")
@@ -20,6 +27,8 @@ def temp(num):
     b.start()
 
 
+
 for i in range(5):
     a = Thread(target=temp, args=(i,), name=f"download-thread-{i}")
     a.start()
+"""
