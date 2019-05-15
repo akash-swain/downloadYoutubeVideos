@@ -7,14 +7,15 @@ from random import randint
 with open("src/video_url.txt", "r") as f:
     video_list = eval(f.read())
 
-def rn(filename):
-    time.sleep(1)
-    os.rename(filename, filename + "akash")
 
-# Download in separate threads 
+# Download in separate threads
 for i in video_list:
     a = Thread(target=yt.download_all_videos, args=(i,), name=f"download-thread-{i}")
     a.start()
+
+
+
+
 
 
 """
@@ -25,6 +26,10 @@ def temp(num):
     os.system(f"echo '{num}' >> test{num}.txt")
     b = Thread(target=rn, args=(f"test{num}.txt",), name=f"rn-thread-{i}")
     b.start()
+
+def rn(filename):
+    time.sleep(1)
+    os.rename(filename, filename + "akash")
 
 
 
