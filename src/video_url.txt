@@ -2,11 +2,4 @@
               "https://www.youtube.com/watch?v=aXxIjeGR6po&list=PLQVvvaa0QuDe9nqlirjacLkBYdgc2inh3&index=2",
               "https://www.youtube.com/watch?v=BJfyATa9nX0&list=PLQVvvaa0QuDe9nqlirjacLkBYdgc2inh3&index=3",
               "https://www.youtube.com/watch?v=j9elKTmCEhY&list=PLQVvvaa0QuDe9nqlirjacLkBYdgc2inh3&index=4",
-              "https://www.youtube.com/watch?v=a3d_nyccpM8&list=PLQVvvaa0QuDe9nqlirjacLkBYdgc2inh3&index=5",
-              "https://www.youtube.com/watch?v=riXD5lSInJ4&list=PLQVvvaa0QuDe9nqlirjacLkBYdgc2inh3&index=6",
-              "https://www.youtube.com/watch?v=0VGJPg0SQIY&list=PLQVvvaa0QuDe9nqlirjacLkBYdgc2inh3&index=7",
-              "https://www.youtube.com/watch?v=79A1YoQ5ZJc&list=PLQVvvaa0QuDe9nqlirjacLkBYdgc2inh3&index=8",
-              "https://www.youtube.com/watch?v=Rju5qdU0e58&list=PLQVvvaa0QuDe9nqlirjacLkBYdgc2inh3&index=9",
-              "https://www.youtube.com/watch?v=NqHX4eF2tw8&list=PLQVvvaa0QuDe9nqlirjacLkBYdgc2inh3&index=10",
-              "https://www.youtube.com/watch?v=ZSzGIXYuE1I&list=PLQVvvaa0QuDe9nqlirjacLkBYdgc2inh3&index=11",
-              "https://www.youtube.com/watch?v=4FLb1ulb64o&list=PLQVvvaa0QuDe9nqlirjacLkBYdgc2inh3&index=12",)
+              "https://www.youtube.com/watch?v=a3d_nyccpM8&list=PLQVvvaa0QuDe9nqlirjacLkBYdgc2inh3&index=5",)

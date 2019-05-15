@@ -1,10 +1,9 @@
 # download youtube videos
-
-
 from pytube import YouTube
 from requests_html import HTMLSession
 import os
 import re
+import time
 
 
 class YoutubeDownloader:
@@ -22,7 +21,7 @@ class YoutubeDownloader:
     def correct_file_names(dirname):
         """delete a part of filename and correct naming like '1. *mp4'"""
         regex = re.compile("(p\d{,2})$")
-        os.chdir(os.path.join(os.curdir, "download"))
+        os.chdir("C:\download-youtube-videos\download")
         for file in os.listdir(dirname):
             stext = os.path.splitext(file)
             getendpart = re.findall(regex, stext[0])
@@ -46,12 +45,13 @@ class YoutubeDownloader:
         r.html.render()
         return r.html.absolute_links
 
-
+starttime = time.time()
 obj_u = YoutubeDownloader()
 with open("src/video_url.txt", "r") as f:
     video_list = eval(f.read())
 
 
-# obj_u.download_all_videos(video_list, "download")
-# obj_u.correct_file_names("C:\download-youtube-videos\download")
+obj_u.download_all_videos(video_list, "download")
+obj_u.correct_file_names("C:\download-youtube-videos\download")
 # obj_u.get_video_length("C:\download-youtube-videos\download")
+print(time.time() - starttime)
