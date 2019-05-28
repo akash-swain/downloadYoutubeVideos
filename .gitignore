@@ -2,3 +2,6 @@ bk/
 vEnvironment/
 download/
 .vscode/
+video_url_data_analysis.txt
+video_url.txt
+__pycache__/
